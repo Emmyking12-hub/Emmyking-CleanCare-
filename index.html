@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Emmyking CleanCare Services Limited</title>
+
+  <meta name="description" content="Emmyking CleanCare Services Limited provides professional cleaning services for homes, offices, Airbnb properties and businesses.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4fbf8;
+      color: #173b32;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #087f5b, #12b886);
+      color: white;
+      padding: 22px 18px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    nav {
+      background: white;
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      color: #087f5b;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 7px;
+      font-size: 13px;
+    }
+
+    .hero {
+      padding: 55px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #e6fcf5, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      color: #087f5b;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      max-width: 600px;
+      margin: auto;
+      color: #365c52;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 20px;
+      margin: 5px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    .call {
+      background: #087f5b;
+      color: white;
+    }
+
+    section {
+      padding: 45px 18px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #087f5b;
+      font-size: 27px;
+      margin-bottom: 25px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 750px;
+      margin: auto;
+      font-size: 16px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px 18px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      color: #087f5b;
+      margin-bottom: 8px;
+    }
+
+    .why {
+      background: #087f5b;
+      color: white;
+      max-width: none;
+    }
+
+    .why-content {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .why ul {
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    .why li {
+      padding: 10px 0;
+      font-size: 16px;
+    }
+
+    .contact {
+      background: white;
+      text-align: center;
+      border-radius: 18px;
+      padding: 30px 20px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #12372f;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      nav a {
+        font-size: 12px;
+        margin: 0 4px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">✨ Emmyking CleanCare</div>
+    <p>Professional Cleaning Services Limited</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Clean Spaces. Happy Places.</h1>
+
+    <p>
+      Professional and reliable cleaning services for homes,
+      offices, Airbnb properties and businesses.
+    </p>
+
+    <div class="buttons">
+      <a class="btn whatsapp"
+         href="https://wa.me/2348101016360"
+         target="_blank">
+        💬 WhatsApp Us
+      </a>
+
+      <a class="btn call" href="tel:08101016360">
+        📞 Call Us
+      </a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Cleaning Services</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Home Cleaning</h3>
+        <p>
+          Professional cleaning for houses, apartments and living spaces.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Office Cleaning</h3>
+        <p>
+          Keep your workplace clean, fresh and welcoming for staff and visitors.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛏️</div>
+        <h3>Airbnb Cleaning</h3>
+        <p>
+          Reliable turnover cleaning to keep your Airbnb property guest-ready.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🧹</div>
+        <h3>Deep Cleaning</h3>
+        <p>
+          Detailed cleaning for areas that need extra attention and care.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🪟</div>
+        <h3>Window Cleaning</h3>
+        <p>
+          Clean and polished windows for a brighter and fresher environment.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🧼</div>
+        <h3>Move-In & Move-Out</h3>
+        <p>
+          Thorough cleaning before moving into or leaving a property.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Emmyking CleanCare</h2>
+
+    <div class="about">
+      <p>
+        Emmyking CleanCare Services Limited is committed to providing
+        dependable, professional and quality cleaning services.
+        We help homes, offices, Airbnb properties and businesses
+        maintain clean, comfortable and healthy-looking environments.
+      </p>
+
+      <br>
+
+      <p>
+        Our goal is simple: <strong>clean spaces, excellent service
+        and satisfied customers.</strong>
+      </p>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="why-content">
+
+      <h2 class="section-title" style="color:white;">
+        Why Choose Us?
+      </h2>
+
+      <ul>
+        <li>✅ Professional and reliable service</li>
+        <li>✅ Careful attention to detail</li>
+        <li>✅ Friendly customer service</li>
+        <li>✅ Residential and commercial cleaning</li>
+        <li>✅ Airbnb cleaning available</li>
+        <li>✅ Flexible cleaning arrangements</li>
+        <li>✅ Serving customers across the state</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact">
+
+      <h3>✨ Emmyking CleanCare Services Limited</h3>
+
+      <p>
+        📞 <strong>08101016360</strong>
+      </p>
+
+      <p>
+        📞 <strong>08150497675</strong>
+      </p>
+
+      <p>
+        💬 WhatsApp: <strong>08101016360</strong>
+      </p>
+
+      <p>
+        📧 wealthyemmanuel1@gmail.com
+      </p>
+
+      <p>
+        🧹 Professional Cleaning Services
+      </p>
+
+      <div class="buttons">
+
+        <a class="btn whatsapp"
+           href="https://wa.me/2348101016360"
+           target="_blank">
+          💬 Chat on WhatsApp
+        </a>
+
+        <a class="btn call" href="tel:08101016360">
+          📞 Call Now
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Emmyking CleanCare Services Limited
+    </p>
+
+    <p>
+      Professional Cleaning • Reliable Service • Clean Spaces
+    </p>
+  </footer>
+
+</body>
+                                               </html>
